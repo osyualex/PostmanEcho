@@ -11,7 +11,7 @@ public class PostmanEchoTest {
     void shouldReturnSendData(){
         given()
                 .baseUri("https://postman-echo.com")
-                .body("H1git add")
+                .body("Hi")
                 .when()
                 .post("/post")
                 .then()
